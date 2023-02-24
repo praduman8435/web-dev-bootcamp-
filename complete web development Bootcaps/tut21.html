@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        body{
+            background-image: url(image.jpg) ;
+        }
+        *{
+box-sizing: border-box;
+        }
+.container{
+width: 900px;
+border: 3px solid purple;
+margin: auto;
+background-color: aqua;
+}
+.item{
+border: 3px solid green;
+margin: 12px 3px;
+padding: 12px 3px;
+background: rgb(247, 238, 238);
+}
+#fruit{
+float:  left;
+width: 48%;
+}
+#computer{
+    float:  left;
+width: 48%;
+}
+#vegetable{
+clear: both;
+width: 96%;
+}
+p, h3{
+    /* text-align: center; */
+    text-align: justify;
+}
+    </style>
+</head>
+<body>
+    
+    <h1>welcome to my store</h1>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas aspernatur accusamus omnis voluptates harum veniam minus itaque, alias sint explicabo repudiandae blanditiis eveniet aliquam dolore! Voluptatum quas odit quasi accusamus quam architecto facilis a quos, sapiente dolore perspiciatis totam? Non pariatur quae ut id tempore minima ratione! Ad vero beatae placeat alias aspernatur.</p>
+        </div>
+   
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computerpara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas aspernatur accusamus omnis voluptates harum veniam minus itaque, alias sint explicabo repudiandae blanditiis eveniet aliquam dolore! Voluptatum quas odit quasi accusamus quam architecto facilis a quos, sapiente dolore perspiciatis totam? Non pariatur quae ut id tempore minima ratione! Ad vero beatae placeat alias aspernatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, reprehenderit. Veniam, dicta soluta nobis dolor odit cupiditate quod facere officia provident autem quo ex quasi delectus id a, architecto inventore!</p>
+        </div>
+    
+        <div id="vegetable" class="item">
+            <h3>vegetable</h3>
+            <p id="vegetablepara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas aspernatur accusamus omnis voluptates harum veniam minus itaque, alias sint explicabo repudiandae blanditiis eveniet aliquam dolore! Voluptatum quas odit quasi accusamus quam architecto facilis a quos, sapiente dolore perspiciatis totam? Non pariatur quae ut id tempore minima ratione! Ad vero beatae placeat alias aspernatur.</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>glasses</h3>
+            <p id="glasssespara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas aspernatur accusamus omnis voluptates harum veniam minus itaque, alias sint explicabo repudiandae blanditiis eveniet aliquam dolore! Voluptatum quas odit quasi accusamus quam architecto facilis a quos, sapiente dolore perspiciatis totam? Non pariatur quae ut id tempore minima ratione! Ad vero beatae placeat alias aspernatur.</p>
+        </div>
+    </div>
+</body>
+</html>

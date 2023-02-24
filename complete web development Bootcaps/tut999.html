@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+         .navbar{
+    background-color: rgb(255, 191, 0);
+    border-radius: 30px;
+}
+ .navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+     .navbar li a{
+        padding: 3px 3px;
+        text-decoration: none;
+        color: black; 
+    }
+       .navbar li a:hover{
+            color: white;
+        }
+        .navbar:hover{
+background-color: red;
+        }
+         .search{
+            float: right;
+            color: black;
+            padding:  12px 75px;
+        } 
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 69px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .box{
+            background-color: rgb(255, 191, 0);
+            justify-content: center;
+            text-align: center;
+border-radius: 3px;
+            width: 250px;
+            height: 42px;
+            border-top-right-radius: 100px;
+            position: relative;
+            animation-name: harry1;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in;
+            /* animation-delay: 3s; */
+            animation-direction: reverse;
+        }
+        .box h1{
+            margin-right: auto;
+            color: black;
+        }
+        @keyframes harry1{
+            from{
+                width: 400px;
+            }
+            to{
+                width: 300px;
+            }
+}
+.box :hover{
+color: white;
+background-color: red;
+border-top-right-radius: 100px;
+}
+img{
+          height: 100%;
+          width: 100%;
+          margin-top: 5px;
+          box-sizing: border-box;
+          border-top-left-radius: 250px;
+}
+button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 191, 0, 0.914);
+    color: black;
+    border-radius: 10px;
+    /* padding-left: 300pxpx;
+    padding-right: 300px; */
+}
+.kit{
+    padding-bottom: 500px;
+}
+#btn:hover{
+    background-color: red;
+    color: white;
+}
+#ctn:hover{
+    background-color: red;
+    color: white;
+}
+hr{
+    padding-bottom: 1px;
+}
+            </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="item"><a href="https://www.xyz.com">Home</a></li>
+                <li class="item"><a href="https://www.xyz.com">About</a></li>
+                <li class="item"><a href="https://www.xyz.com">Services</a></li>
+                <li class="item"><a href="https://www.xyz.com">Contact us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="seach">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="box">
+        <h1>Fitness On Fire</h1>
+        </div>
+        <img src="sport.jpg" alt="not found">
+        <button id="btn">sign up</button>
+        <button id="ctn">login</button>
+        <hr>
+        <div class="kit">
+           
+        </div>
+</body>
+</html>
